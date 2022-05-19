@@ -1,0 +1,25 @@
+body{
+    background-color: azure;
+    padding: 15px;
+
+}
+
+h1{
+
+    color: gray;
+}
+
+h2{
+color: rgb(101, 148, 156);
+}
+
+h4{
+    color: black;
+}
+#name-my{
+    display: inline-block;
+}
+#blog-header{
+text-align:center;
+display: inline-block;
+}
