@@ -56,5 +56,5 @@ console.log(name1.students[i].address);
 console.log(name1.students[i].mark)
 console.log(name1["students"][i].mark[0]+name1["students"][i].mark[1]+name1["students"][i].mark[2])
 }
-JSON.stringify(name1)
-console.log(name1)
+// JSON.stringify(name1)
+// console.log(name1)
