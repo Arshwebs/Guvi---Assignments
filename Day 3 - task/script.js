@@ -50,11 +50,17 @@ let name1 = {
     
 }
    
-for(let i = 0;i< name1.students.length;i++){
-console.log(name1.students[i].Name);
-console.log(name1.students[i].address);
-console.log(name1.students[i].mark)
-console.log(name1["students"][i].mark[0]+name1["students"][i].mark[1]+name1["students"][i].mark[2])
-}
+// for(let i = 0;i< name1.students.length;i++){
+// console.log(name1.students[i].Name);
+// console.log(name1.students[i].address);
+// console.log(name1.students[i].mark)
+// console.log(name1["students"][i].mark[0]+name1["students"][i].mark[1]+name1["students"][i].mark[2])
+// }
 // JSON.stringify(name1)
 // console.log(name1)
+for(let i in name1){
+    console.log(name1[i]["name"]);
+    // console.log(name1[i]["address"]);
+    // console.log(name1[i]["mark"])
+    // console.log(name1[i][i].mark[0]+name1["students"][i].mark[1]+name1["students"][i].mark[2])
+    }
