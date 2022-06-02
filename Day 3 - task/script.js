@@ -50,9 +50,39 @@ let name1 = {
     
 }
    
-for(let i = 0;i< name1.students.length;i++){
-console.log(name1.students[i].Name);
-console.log(name1.students[i].address);
-console.log(name1.students[i].mark)
-console.log(name1["students"][i].mark[0]+name1["students"][i].mark[1]+name1["students"][i].mark[2])
+
+// For
+// for(let i = 0;i< name1.students.length;i++){
+// console.log(name1.students[i].Name);
+// console.log(name1.students[i].address);
+// console.log(name1.students[i].mark)
+// console.log(name1["students"][i].mark[0]+name1["students"][i].mark[1]+name1["students"][i].mark[2])
+// }
+
+// //Foreach
+// name1.students.forEach(element => {
+//     console.log(element.Name)
+//     console.log(element.address)
+//     console.log(element.mark)
+//     console.log(Number(element.mark[0])+Number(element.mark[1])+Number(element.mark[2]))
+// });
+
+//For IN
+
+// for(let i in name1.students){
+//     console.log(name1.students[i].Name);
+//     console.log(name1.students[i].address);
+//     console.log(name1.students[i].mark)
+//     console.log(name1["students"][i].mark[0]+name1["students"][i].mark[1]+name1["students"][i].mark[2])
+// }
+
+//For of
+
+for (let i of name1.students){
+
+    console.log(i.Name);
+    console.log(i.address);
+    console.log(i.mark)
+    console.log(i.mark[0]+i.mark[1]+i.mark[2])
+
 }
