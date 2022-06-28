@@ -16,3 +16,10 @@ var data = JSON.parse(request.responseText);
  }
 }
 //How to compare two JSON have the same properties without order?
+var bob = {Gender:"male",age:21};
+var bill = {Gender:"male",age:21};
+if(JSON.stringify(bob) === JSON.stringify(bill) ){
+console.log("we are equal");
+}else{
+	conosle.log("we are not equal");
+}
