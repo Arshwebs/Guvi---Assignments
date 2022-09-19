@@ -21,5 +21,5 @@ var bill = {Gender:"male",age:21};
 if(JSON.stringify(bob) === JSON.stringify(bill) ){
 console.log("we are equal");
 }else{
-	conosle.log("we are not equal");
+	console.log("we are not equal");
 }
